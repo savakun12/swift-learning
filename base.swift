@@ -52,3 +52,37 @@ let scores: [String: Int] = ["Alice": 90, "Bob":85, "Charlie":92]
 for (name, score) in scores {
     print("\(name): \(score)")
 }
+
+// Struct dan Method
+struct Book {
+    var title: String
+    var author: String
+    var pages: Int
+    
+    func summary() -> String {
+        return "\(title) by \(author), \(pages) pages"
+    }
+}
+
+// Membuat Objek dari Struct
+let book1 = Book(title: "Swift Programming", author: "John Doe", pages: 250)
+print(book1.summary()) // Output: Swift Programming by John Doe, 250 pages
+
+// Kelas dan Method
+class Person {
+    var name: String
+    var age: Int
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+    
+    func introduce() -> String {
+        return "Hi, my name is \(name) and I am \(age) years old."
+    }
+}
+
+// Membuat Objek dari Kelas
+let person1 = Person(name: "Alice", age: 28)
+print(person1.introduce()) // Output: Hi, my name is Alice and I am 28 years old.
