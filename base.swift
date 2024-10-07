@@ -45,3 +45,10 @@ for fruit in fruits {
     print("Fruit: \(fruit)")
 }
 
+// Menggunkan Dictionary
+let scores: [String: Int] = ["Alice": 90, "Bob":85, "Charlie":92]
+
+// Mengakses nilai dalam dictionary
+for (name, score) in scores {
+    print("\(name): \(score)")
+}
