@@ -21,3 +21,27 @@ if score >= 90 {
     print("C")
 }
 
+//Fungsi untuk menjumlahkan dua angka
+func addNumbers( a: Int, b: Int) -> Int {
+    return a + b
+}
+
+let sum = addNumbers(5,10)
+print("Sum: \(sum)") // Output: Sum: 15
+
+//Fungsi untuk menghitung faktorial
+func factorial(of number: Int) -> Int {
+    return number == 0 ? 1 : number * factorial(of: number - 1)
+}
+
+let fact = factorial(of: 5)
+print("Factorial of 5: \(fact)")// Output: Factorial of 5: 120
+
+//Menggunakan arraay 
+let fruits = ["Apple", "Banana", "Cherry"]
+
+//Looping melalui array
+for fruit in fruits {
+    print("Fruit: \(fruit)")
+}
+
