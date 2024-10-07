@@ -127,6 +127,3 @@ class Person {
 ## Lisensi
 
 Proyek ini dirilis di bawah lisensi MIT. Silakan lihat file LICENSE untuk informasi lebih lanjut.
-```
-
-Dengan tambahan ini, proyek Swift kamu menjadi lebih komprehensif dan membantu pengguna baru untuk memahami dasar-dasar pemrograman dalam Swift. Jika ada yang ingin kamu tambahkan atau ubah, silakan beri tahu!
